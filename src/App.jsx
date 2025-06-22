@@ -38,7 +38,7 @@ function App() {
     <TodoProvider value={{ todos, AddTodo, DeleteTodo, UpdateTodo, CompletedTodo }}>
       <div className='bg-[#172842] min-h-screen py-6'>
         <div className='text-white w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3' >
-        <h1 className='text-2xl bold mt-2 mb-8 text-center'>This is a app</h1>
+        <h1 className='text-2xl bold mt-2 mb-8 text-center'>Manage your todos</h1>
         <div className='mb-4'>
             {/* Tdo form goes here  */}
             <TodoForm />
